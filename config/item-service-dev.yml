@@ -9,6 +9,11 @@ spring:
     port: 5672
     username: admin
     password: admin  
+  sleuth:
+    sampler:
+      probability: 0.1
+
+
 
 server:
   port: 8001
@@ -19,4 +24,12 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
 
+   
+   
+   
+   
+   
+   
+   
+   
       
